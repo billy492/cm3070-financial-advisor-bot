@@ -1,0 +1,25 @@
+{
+  "advisor": "llama",
+  "model": "llama3.1:8b",
+  "all_buy_sell": {
+    "n": 846,
+    "n_parsed": 846,
+    "n_vacuous": 2
+  },
+  "faithfulness_sample": {
+    "n": 40,
+    "n_parsed": 40,
+    "reproduced": 40,
+    "n_vacuous": 0,
+    "n_tested": 40,
+    "minimal_flips": 18,
+    "generous_flips": 17
+  },
+  "dice_b40": {
+    "n_rows": 12,
+    "rows_with_cf": 11,
+    "n_counterfactuals": 14,
+    "n_valid_on_fresh_call": 14,
+    "mean_search_calls": 40.0
+  }
+}

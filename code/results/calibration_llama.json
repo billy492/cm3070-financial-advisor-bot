@@ -1,0 +1,218 @@
+{
+  "tag": "llama",
+  "metrics": {
+    "n": 3723,
+    "n_total": 3825,
+    "n_bins": 10,
+    "hit_rate": 0.2809562181036798,
+    "ece_raw": 0.41434595756110665,
+    "ece_calibrated": 0.2451965465790746,
+    "ece_improvement": 0.16914941098203204,
+    "brier_raw": 0.37530526457158203,
+    "brier_calibrated": 0.26551059350721024,
+    "mean_raw_confidence": 0.6953021756647866,
+    "mean_calibrated_confidence": 0.5261527646827544,
+    "n_BUY": 779,
+    "hit_rate_BUY": 0.51171875,
+    "n_HOLD": 2979,
+    "hit_rate_HOLD": 0.21814404432132964,
+    "n_SELL": 67,
+    "hit_rate_SELL": 0.34328358208955223,
+    "adaptive_ece_raw": 0.4143459575611068,
+    "adaptive_ece_calibrated": 0.2451965465790746
+  },
+  "folds": [
+    {
+      "fold": "2025-01",
+      "fitted_at": "2025-01-02",
+      "n_samples": 0,
+      "temperature": null,
+      "status": "insufficient_samples"
+    },
+    {
+      "fold": "2025-02",
+      "fitted_at": "2025-02-07",
+      "n_samples": 255,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2025-03",
+      "fitted_at": "2025-03-07",
+      "n_samples": 459,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2025-04",
+      "fitted_at": "2025-04-04",
+      "n_samples": 663,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2025-05",
+      "fitted_at": "2025-05-02",
+      "n_samples": 867,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2025-06",
+      "fitted_at": "2025-06-06",
+      "n_samples": 1122,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2025-07",
+      "fitted_at": "2025-07-03",
+      "n_samples": 1326,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2025-08",
+      "fitted_at": "2025-08-01",
+      "n_samples": 1530,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2025-09",
+      "fitted_at": "2025-09-05",
+      "n_samples": 1785,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2025-10",
+      "fitted_at": "2025-10-03",
+      "n_samples": 1989,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2025-11",
+      "fitted_at": "2025-11-07",
+      "n_samples": 2244,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2025-12",
+      "fitted_at": "2025-12-05",
+      "n_samples": 2448,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2026-01",
+      "fitted_at": "2026-01-02",
+      "n_samples": 2652,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2026-02",
+      "fitted_at": "2026-02-06",
+      "n_samples": 2907,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2026-03",
+      "fitted_at": "2026-03-06",
+      "n_samples": 3111,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2026-04",
+      "fitted_at": "2026-04-02",
+      "n_samples": 3315,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    },
+    {
+      "fold": "2026-05",
+      "fitted_at": "2026-05-01",
+      "n_samples": 3519,
+      "temperature": 19.999999257671483,
+      "status": "fitted"
+    }
+  ],
+  "config": {
+    "train_window": null,
+    "test_window": null,
+    "step": null,
+    "decision_freq": "W-FRI",
+    "horizon_days": 5,
+    "cost_bps": 10.0,
+    "calibrate": true,
+    "calibration_min_samples": 50,
+    "start": "2025-01-01",
+    "end": "2026-06-01",
+    "tickers": [
+      "AAPL",
+      "ABBV",
+      "ABT",
+      "ADBE",
+      "AMGN",
+      "AMZN",
+      "AVGO",
+      "BA",
+      "BAC",
+      "BLK",
+      "BRK-B",
+      "CAT",
+      "COP",
+      "COST",
+      "CRM",
+      "CSCO",
+      "CVX",
+      "DE",
+      "EOG",
+      "GE",
+      "GS",
+      "HD",
+      "HON",
+      "INTC",
+      "JNJ",
+      "JPM",
+      "KO",
+      "LLY",
+      "LMT",
+      "MA",
+      "MCD",
+      "MRK",
+      "MS",
+      "MSFT",
+      "NKE",
+      "NVDA",
+      "ORCL",
+      "PEP",
+      "PFE",
+      "PG",
+      "QCOM",
+      "RTX",
+      "SLB",
+      "TMO",
+      "TSLA",
+      "UNH",
+      "UPS",
+      "V",
+      "WFC",
+      "WMT",
+      "XOM"
+    ],
+    "max_workers": 1,
+    "hold_threshold": 0.01,
+    "initial_capital": 100000.0,
+    "price_column": "adj_close",
+    "n_bins": 10
+  },
+  "n_llm_calls": 3825,
+  "n_errors": 0,
+  "elapsed_s": 27003.122099875007
+}

@@ -1,0 +1,12 @@
+{
+  "advisor": "heuristic",
+  "n_rows_attempted": 60,
+  "n_rows_ok": 60,
+  "n_counterfactuals": 110,
+  "n_checked": 110,
+  "n_valid": 110,
+  "validity_rate": 1.0,
+  "n_failure_msgs": 0,
+  "failure_sample": [],
+  "zero_cf_rows": 2
+}
